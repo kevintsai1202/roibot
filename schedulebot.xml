@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bot> 
+  <jobs> 
+    <job> 
+      <wallet> 
+        <walletAddress>0xXxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</walletAddress>  
+        <!-- 輸入錢包地址 -->  
+        <privateKey>xxxxxxxxxxxxxxxx</privateKey>  
+        <!-- 輸入私鑰 -->  
+        <!--提供錢包及私鑰代表對方能擁有所有錢包權限 建議使用新錢包執行 --> 
+      </wallet>  
+      <roiProjects> 
+        <roiProject name="Power Miner"> 
+          <contractAddress>0xcd6B3b5D0d8F1d1Bb95bD0D3C7099b0BF4603949</contractAddress>  
+          <sellFunction name="sellEggs" firstTime="2022-08-12 19:23:30" period="1"/> 
+        </roiProject>  
+        <roiProject name="Soccer BUSD"> 
+          <contractAddress>0xC9baa0Bcfa920dd8F6feBd9BFA2fda74B34e69fB</contractAddress>  
+          <claimFunction name="claimDailyRewards" firstTime="2022-08-13 12:20:02" period="24"/>  
+          <sellFunction name="withdrawal" firstTime="2022-08-18 12:21:00 " period="168"/> 
+        </roiProject> 
+      </roiProjects> 
+    </job>  
+    <job> 
+      <wallet> 
+        <walletAddress>0yyyyyyyyyyyyyyyyyyyy</walletAddress>  
+        <!-- 輸入錢包地址 -->  
+        <privateKey>yyyyyyyyyyyyyyyyyyyyyy</privateKey>  
+        <!-- 輸入私鑰 -->  
+        <!--提供錢包及私鑰代表對方能擁有所有錢包權限 建議使用新錢包執行 --> 
+      </wallet>  
+      <roiProjects> 
+        <roiProject name="Dino BUSD"> 
+          <contractAddress>0xb9150107F2820930D997a91f03Ba81A8d625F337</contractAddress>  
+          <claimFunction name="claimDailyRewards" firstTime="2022-08-13 10:20:02" period="24"/>  
+          <sellFunction name="withdrawal" firstTime="2022-08-18 15:23:00 " period="168"/> 
+        </roiProject>  
+        <roiProject name="Soccer BUSD"> 
+          <contractAddress>0xC9baa0Bcfa920dd8F6feBd9BFA2fda74B34e69fB</contractAddress>  
+          <claimFunction name="claimDailyRewards" firstTime="2022-08-12 22:15:00" period="24"/>  
+          <sellFunction name="withdrawal" firstTime="2022-08-13 22:16:00 " period="168"/> 
+        </roiProject>  
+        <roiProject name="Space"> 
+          <contractAddress>0x1f69e2FF411d08790562eF55f3De152e5853DEE3</contractAddress>  
+          <claimFunction name="claimDailyRewards" firstTime="2022-08-13 09:15:00" period="24"/>  
+          <sellFunction name="withdrawal" firstTime="2022-08-18 09:15:00" period="168"/> 
+        </roiProject> 
+      </roiProjects> 
+    </job> 
+  </jobs> 
+</bot>
